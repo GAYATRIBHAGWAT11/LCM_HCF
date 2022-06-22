@@ -3,15 +3,16 @@
 let number=121;
 let rem;
 let sum=0
+let pallindrome=number;
 while(number>0){
      rem=Math.floor(number%10)
     sum=sum*10+rem;
     number=Math.floor(number/10);
-    if(number==sum){
-        console.log("number is pallindrome")
-    }else{
-        console.log("number is not pallindrom")
-    }
-    
+   
 }
- 
+if(pallindrome==sum){
+    console.log("number is pallindrome")
+}else{
+    console.log("number is not pallindrom")
+}
+

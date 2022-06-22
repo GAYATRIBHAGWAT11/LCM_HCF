@@ -6,5 +6,7 @@ while(number>0){
     if(rem%2==0){
        console.log(rem)
     }
+    number=Math.floor(number/10)
+
    
 }
